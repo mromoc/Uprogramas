@@ -43,10 +43,10 @@ int agregarfrase(pLista *L)
 
 int Imprimir(pLista *L)
 {
-//	pLista *aux;
+	pLista *aux;
 	int i;
 	i=0;
-//	aux = L->ventana;
+	aux = L->ventana;
 	L->ventana=L->primero;
 	while(L->ventana!=NULL)
 	{
@@ -55,7 +55,7 @@ int Imprimir(pLista *L)
 		i++;
 	}
 	printf("|\nHay %i palabras en esta frase\n\n",i);
-//	L->ventana=aux;
+	L->ventana=aux;
 }
 
 int opciones()
