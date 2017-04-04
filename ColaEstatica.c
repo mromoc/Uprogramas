@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #define max 10
 
+//Plantilla creada para poder guiarme, 2016, 2°semestre.
+
 typedef struct cola
 {
 	int primero,ultimo,info[max];
