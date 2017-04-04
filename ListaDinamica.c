@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//Plantilla creada para poder guiarme, 2016, 2°semestre.
+
 typedef struct pNodo
 {
 	char inf;
