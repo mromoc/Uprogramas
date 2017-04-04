@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//Plantilla creada con el proposito de guiarme, creada en 2016 2° semestre.
+//Cola interactiva.
 typedef struct cola
 {
 	int info;
